@@ -58,7 +58,7 @@ If you can't download choldate using environment.yml or `pip install git+git://g
   pip install git+git://github.com/jcrudy/choldate.git
   ```
 
-### **License**
+## **License**
 
 This repository is licensed under the [MIT License](LICENSE).
   
