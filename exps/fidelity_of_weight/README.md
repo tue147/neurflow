@@ -26,3 +26,13 @@ bash correlation_all.sh
 ```
 
 You can plot the results using the `Correlation_plot.ipynb`.
+
+## **3. Neuron group relation aggregation**
+
+Run the script.
+
+```bash
+bash correlation_compare_sum_and_mean.sh
+```
+
+You can plot the results using the `Correlation_plot.ipynb`.
