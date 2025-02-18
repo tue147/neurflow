@@ -3,7 +3,7 @@
 LABEL=309
 MODEL="resnet50"
 OUTPUT_DIR="./results"
-DATA_DIR="/mnt/disk1/user/Tue.CM210908/imagenet"
+DATA_DIR="data_dir"
 TAU=16
 KEEP_DATA=True
 BATCH_SIZE=128

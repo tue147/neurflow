@@ -3,12 +3,12 @@
 LABEL=309
 MODEL="resnet50"
 OUTPUT_DIR=".exps/compare/results_neucept"
-DATA_DIR="/mnt/disk1/user/Tue.CM210908/imagenet"
+DATA_DIR="data_dir"
 TAU=16
 KEEP_DATA=True
 BATCH_SIZE=128
 BATCH_SIZE_NEUCEPT=50
-DEVICE="cuda:1"
+DEVICE="cuda:0"
 
 cd ..
 

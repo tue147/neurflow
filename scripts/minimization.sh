@@ -6,10 +6,10 @@ MODELS=("googlenet" "resnet50")
 
 
 OUTPUT_DIR=".exps/optimality_of_neuron/run_each_layer"
-DATA_DIR="/mnt/disk1/user/Tue.CM210908/imagenet"
+DATA_DIR="data_dir"
 BATCH_SIZE=128
 BATCH_SIZE_IG=4
-DEVICE="cuda:3"
+DEVICE="cuda:0"
 
 cd ..
 

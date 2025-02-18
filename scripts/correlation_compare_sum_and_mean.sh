@@ -3,7 +3,7 @@
 METHOD_NAME="integrated_gradients"
 MODEL_LIST=("resnet50" "googlenet")
 LABEL_LIST=({0..10})
-DATA_DIR="/mnt/disk1/user/Tue.CM210908/imagenet"
+DATA_DIR="data_dir"
 BATCH_SIZE=1024
 LIST_TAU=(1 5 10 20 50)
 NUM_COMB=500

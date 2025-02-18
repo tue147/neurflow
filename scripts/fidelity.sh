@@ -4,11 +4,11 @@ LABEL_LIST=({0..50})
 MODEL="googlenet"
 
 TAU_LIST=(4 8 16)
-DATA_DIR="/mnt/disk1/user/Tue.CM210908/imagenet"
+DATA_DIR="data_dir"
 KEEP_DATA=False
 BATCH_SIZE=128
 BATCH_SIZE_IG=4
-DEVICE="cuda:1"
+DEVICE="cuda:0"
 
 cd ..
 
