@@ -17,25 +17,38 @@ cd neurflow
 
 ## **Usage**
 
-### **1. Make the result directory**
+### **1. Download ImageNet**
+Download the 2012-version of ImageNet dataset (validation images), development-kit (development-kit task 1&2) on: **[Download Dataset]( https://image-net.org/)** 
+
+Then unzip the validation set place them into a folder.
+```
+imagenet/
+│── ILSVRC2012_devkit_t12.tar.gz
+│── val
+    │── data...
+```
+
+### **2. Make the result directory**
 
 ```bash
 mkdir -p results
 ```
 
-### **2. Create conda environment**
+### **3. Create conda environment**
 
 ```bash
 conda env create --name neurflow --file=environments.yml
 ```
 
-### **3. Run the framework**
+### **4. Run the framework**
+
+Copy your folder path to the dataset and place them in `DATA_DIR` in `scripts/run.sh`. Then run this in the terminal:
 
 ```bash
 cd scripts
 bash run.sh
 ```
-### **4. Visualize the result**
+### **5. Visualize the result**
 
 Open notebooks for applications.
 ```
